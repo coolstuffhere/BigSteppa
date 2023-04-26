@@ -1,0 +1,86 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #c21d1d 5%, #e4e4e4 30%);
+    background-attachment: fixed;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}  
+
+section {
+    display: block;
+    background-color: #ad0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    width: 750px;
+  }
+
+ 
+  header {
+    background-color: #a30000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px; /* Set margin-top to negative value of padding */
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 5px; /* Add margin between the navigation links */
+}
+.list a {
+    color: #d4d4d4;
+    display:block;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
+
+nav li a:hover {
+    background-color: #690000;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+p {
+    color: #d4d4d4
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
